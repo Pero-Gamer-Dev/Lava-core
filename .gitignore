@@ -1,1 +1,25 @@
+# Gradle directories
+.gradle/
+build/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Minecraft environment logs and run directories
+run/
+runClient/
+runServer/
+logs/
+crash-reports/
+
+# Operating system files
+.DS_Store
+Thumbs.db
 
