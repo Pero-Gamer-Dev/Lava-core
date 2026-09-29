@@ -1,6 +1,6 @@
 # 🌋 Lava-core (Fabric Server Mod)
 
-Lava-core is a high-performance Fabric dedicated-server mod designed for **Minecraft 1.21.4**. It emulates a Bukkit/Paper server environment directly inside the Fabric ecosystem, allowing server administrators to run traditional Paper plugins alongside Fabric mods without replacing the server JAR.
+Lava-core is a high-performance Fabric dedicated-server mod designed for **Minecraft 1.21+**. It emulates a Bukkit/Paper server environment directly inside the Fabric ecosystem, allowing server administrators to run traditional Paper plugins alongside Fabric mods without replacing the server JAR.
 
 ## 🚀 Key Features (1.0.1-BETA)
 
