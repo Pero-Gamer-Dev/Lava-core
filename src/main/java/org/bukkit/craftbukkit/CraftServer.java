@@ -1,5 +1,6 @@
 package org.bukkit.craftbukkit;
 
-public class CraftServer {
-    // CraftBukkit server implementation
+import org.bukkit.Server;
+
+public class CraftServer implements Server {
 }

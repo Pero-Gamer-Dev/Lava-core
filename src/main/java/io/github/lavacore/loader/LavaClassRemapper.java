@@ -1,7 +1,7 @@
 package io.github.lavacore.loader;
 
 public class LavaClassRemapper {
-    public String remapClass(String className) {
+    public static String remap(String className) {
         return className;
     }
 }

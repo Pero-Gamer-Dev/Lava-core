@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "io.github.lavacore.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DedicatedServerMixin",
+    "PlayerListMixin"
+  ]
+}

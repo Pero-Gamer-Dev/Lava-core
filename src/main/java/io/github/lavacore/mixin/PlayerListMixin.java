@@ -1,5 +1,5 @@
 package io.github.lavacore.mixin;
 
 public class PlayerListMixin {
-    // Mixin implementation
+    // Mixin for player list functionality
 }

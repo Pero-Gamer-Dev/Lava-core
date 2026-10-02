@@ -1,17 +1,12 @@
 package io.github.lavacore.events;
 
-import org.bukkit.event.Event;
-import org.bukkit.event.HandlerList;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.block.BlockBreakEvent;
 
-public class LavaBlockBridge extends Event {
-    private static final HandlerList handlers = new HandlerList();
-
-    @Override
-    public HandlerList getHandlers() {
-        return handlers;
-    }
-
-    public static HandlerList getHandlerList() {
-        return handlers;
+public class LavaBlockBridge implements Listener {
+    @EventHandler
+    public void onBlockBreak(BlockBreakEvent event) {
+        // Handle block break events
     }
 }

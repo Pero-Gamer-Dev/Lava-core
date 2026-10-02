@@ -1,7 +1,5 @@
 package io.github.lavacore.unsafe;
 
 public class LavaUnsafeValues {
-    public static Object getUnsafe() {
-        return null;
-    }
+    // Unsafe value access for performance-critical operations
 }

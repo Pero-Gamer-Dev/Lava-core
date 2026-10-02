@@ -1,9 +1,6 @@
 package io.github.lavacore.plugin;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.plugin.PluginLoader;
 
-public class LavaJavaPluginLoader {
-    public JavaPlugin loadPlugin(String path) {
-        return null;
-    }
+public class LavaJavaPluginLoader implements PluginLoader {
 }

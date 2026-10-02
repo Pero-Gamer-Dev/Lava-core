@@ -1,5 +1,6 @@
 package org.bukkit.craftbukkit.entity;
 
-public class CraftPlayer {
-    // CraftBukkit player implementation
+import org.bukkit.entity.Player;
+
+public class CraftPlayer implements Player {
 }
