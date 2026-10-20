@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "lava",
+  "name": "Lava Server Core",
+  "version": "1.0.7-BETA",
+  "description": "Fabric hybrid server core with a Bukkit/Paper plugin bridge for 1.21.4. Works without fabric-api.",
+  "authors": ["Pero"],
+  "license": "LGPL-3.0-or-later",
+  "environment": "server",
+  "entrypoints": {
+    "server": ["io.github.lavacore.LavaCoreInitializer"]
+  },
+  "mixins": ["lava.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}
